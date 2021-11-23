@@ -9,4 +9,13 @@
 body {
     font-family: zilla slab, serif;
     font-weight: 300;
+    color:#fff;
+    background-image: linear-gradient(to right top, #18201f, #042e37, #013758, #42376c, #7e2b63);
+    background-repeat: no-repeat;
+}
+
+/* Heading and Logo */ 
+
+h1 {
+    
 }
