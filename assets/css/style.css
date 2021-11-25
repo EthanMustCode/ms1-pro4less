@@ -16,6 +16,25 @@ body {
 
 /* Heading and Logo */ 
 
-h1 {
-    
+#logo {
+    float: left;
+    color: #fff;
+}
+
+/* Navigation */
+
+#nav-links {
+    font-size: 100%;
+    letter-spacing: 5px;
+}
+
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: inherit;
 }
