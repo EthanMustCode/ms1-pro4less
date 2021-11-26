@@ -12,6 +12,7 @@ body {
     color:#fff;
     background-image: linear-gradient(to right top, #18201f, #042e37, #013758, #42376c, #7e2b63);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Heading and Logo */ 
@@ -19,6 +20,7 @@ body {
 #logo {
     float: left;
     color: #fff;
+    margin-left: 20px;
 }
 
 /* Navigation */
@@ -26,6 +28,7 @@ body {
 #nav-links {
     font-size: 100%;
     letter-spacing: 5px;
+    font-weight: bold;
 }
 
 #nav-links li {
@@ -37,4 +40,49 @@ body {
 #nav-links a {
     text-decoration: none;
     color: inherit;
+}
+
+#nav-links a:hover {
+    border: 2px solid #fff;
+    padding: 10px;
+}
+
+#nav-links, #logo {
+    line-height: 50px;
+}
+
+.signup {
+    text-transform: capitalize;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../Images/hero-image\ original.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.space {
+    background-color: #fff;
+    height: 30px;
+    width: 100%;
+    display: block;
+}
+
+section > h2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
 }
