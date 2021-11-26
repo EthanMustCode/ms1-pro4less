@@ -86,3 +86,24 @@ section > h2 {
 p {
     text-align: center;
 }
+
+#content {
+    height: 600px;
+}
+
+#left-content {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-content {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-content {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
