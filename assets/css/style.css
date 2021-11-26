@@ -9,13 +9,13 @@
 body {
     font-family: zilla slab, serif;
     font-weight: 300;
-    color:#fff;
+    color: #fff;
     background-image: linear-gradient(to right top, #18201f, #042e37, #013758, #42376c, #7e2b63);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Heading and Logo */ 
+/* Heading and Logo */
 
 #logo {
     float: left;
@@ -47,7 +47,8 @@ body {
     padding: 10px;
 }
 
-#nav-links, #logo {
+#nav-links,
+#logo {
     line-height: 50px;
 }
 
@@ -64,7 +65,7 @@ body {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../Images/hero-image\ original.jpg) no-repeat center center;
+    background: url(../images/hero-image\ original.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -81,6 +82,7 @@ section > h2 {
     text-align: center;
     padding-top: 20px;
     font-size: 60px;
+    text-transform: capitalize;
 }
 
 p {
@@ -89,21 +91,62 @@ p {
 
 #content {
     height: 600px;
+    margin-top: 80px;
+    line-height: 50px;
 }
 
 #left-content {
     padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
+#left-content {
+    background: url(../images/content-left-image\ 2.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.link-headings {
+    text-align: center;
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 80px;
+    color: #fff;
+    margin-top: 30%; 
+
+}
+
 #center-content {
-    width: 33%;
+    width: 30%;
     margin: 0 auto;
+    background: url(../images/content-center-image\ 2.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
 }
 
 #right-content {
     padding-top: 30px;
-    width: 33%;
+    width: 30%;
     float: right;
+    background: url(../images/content-right-image.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+footer {
+    margin: 0;
+}
+
+#strip {
+    
 }
