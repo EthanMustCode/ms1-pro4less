@@ -157,8 +157,8 @@ footer {
     height: 100px;
     /* background-color: darkorchid; */
     background-image: linear-gradient(to top, #18201f, #042e37, #013758, #42376c, #7e2b63);
-    margin-top: 100px;
-    padding: 1em;
+    margin-top: 150px;
+    padding: 2em;
 	text-align: center;
     position: fixed;
     bottom: 0;
@@ -166,11 +166,26 @@ footer {
 	z-index: 3;
 }
 
-#shop-links {
-    height: 600px;
-    width: 100%;
-    background-color: #fff;
+#newsletter-link {
+    height: 250px;
+    width: 70%;
+    background-color: rgb(163, 148, 189);
     background-size: cover;
-    margin: 100px 0 50px 0;
+    overflow: hidden;
+    margin: 100px 100px 100px 100px;
+    border-radius: 40px;
+}
 
+div > h2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+#button {
+    margin: 0 auto;
+    border: 1em ridge #7e2b63;
 }
