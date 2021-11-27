@@ -56,6 +56,8 @@ body {
     text-transform: capitalize;
 }
 
+/* HERO IMAGE */
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -68,6 +70,8 @@ body {
     background: url(../images/hero-image\ original.jpg) no-repeat center center;
     background-size: cover;
 }
+
+/* introduction text */
 
 section > h2 {
     font-family: sans-serif;
@@ -151,7 +155,22 @@ p {
 footer {
     width: 100%;
     height: 100px;
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
+    background-image: linear-gradient(to top, #18201f, #042e37, #013758, #42376c, #7e2b63);
     margin-top: 100px;
+    padding: 1em;
+	text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
 }
 
+#shop-links {
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    margin: 100px 0 50px 0;
+
+}
