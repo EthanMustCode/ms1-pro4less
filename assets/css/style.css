@@ -58,7 +58,7 @@ body {
 
 /* HERO IMAGE */
 
-#hero-outer {
+#hero-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -73,7 +73,7 @@ body {
 
 /* introduction text */
 
-section > h2 {
+section>h2 {
     font-family: sans-serif;
     font-weight: 300;
     text-align: center;
@@ -102,11 +102,7 @@ p {
     display: inline-block;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
 #left-content {
     width: 30%;
@@ -140,7 +136,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    
+
 }
 
 .link-headings {
@@ -148,35 +144,35 @@ p {
     font-family: zilla slab;
     font-weight: 300;
     font-size: 80px;
-    color: #fff;
+    color: rgb(163, 148, 189);
     margin-top: 30%;
+    text-transform: uppercase;
 }
 
-footer {
-    width: 100%;
-    height: 100px;
-    /* background-color: darkorchid; */
-    background-image: linear-gradient(to top, #18201f, #042e37, #013758, #42376c, #7e2b63);
-    margin-top: 150px;
-    padding: 2em;
-	text-align: center;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	z-index: 3;
+#pos {
+    margin-top: 300px;
+    position:relative;
 }
 
 #newsletter-link {
     height: 250px;
-    width: 70%;
+    width: 90%;
     background-color: rgb(163, 148, 189);
     background-size: cover;
     overflow: hidden;
-    margin: 100px 100px 100px 100px;
-    border-radius: 40px;
+    /* margin-top: 150px; */
+    /* margin-left: 100px; */
+    border-radius: 50px;
+    /* position: relative; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-div > h2 {
+div>h2 {
     font-family: sans-serif;
     font-weight: 300;
     text-align: center;
@@ -188,4 +184,18 @@ div > h2 {
 #button {
     margin: 0 auto;
     border: 1em ridge #7e2b63;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    /* background-color: darkorchid; */
+    background-image: linear-gradient(to top, #18201f, #042e37, #013758, #42376c, #7e2b63);
+    margin-top: 400px;
+    padding: 2em;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    /* right: 0; */
+	/* z-index: 3; */
 }
