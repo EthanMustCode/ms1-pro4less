@@ -401,3 +401,38 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+/* FORM */
+
+#newsletter-form-container {
+    height: 600px;
+    width: 40%;
+    background-color: #4f0c6e00;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#newsletter-form {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    font-size: 30px;
+    color: orange;
+}
+
+#newsletter-form input {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#submit {
+}
