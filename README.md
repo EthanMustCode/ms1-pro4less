@@ -7,5 +7,5 @@ the navigation bar which is found at the top of the page features the accesibilt
 
 * This will allows seamless access to every page on the site without have to revert back to the homepage
 
-![this is an image of the navbar] (../css/images/navbar.png)
+![this is an image of the navbar] (/assets/images/navbar.png)
 
