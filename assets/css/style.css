@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    /* border: none; */
+    box-sizing: border-box;
 }
 
 body {
@@ -76,6 +77,7 @@ body {
     width: 100%;
     background: url(../images/idea-hero-3.jpg) no-repeat center center;
     background-size: cover;
+    position: relative;
 }
 
 #equipment-hero-image {
@@ -106,8 +108,15 @@ body {
 .intro-text p {
     width: 80%;
     text-align: center;
-    margin-left: 200px;
-    margin-top: 40px;
+    margin: 40px 0 0 200px;
+   font-size: 20px;
+    /* margin-left: 200px;
+    margin-top: 40px; */
+}
+
+#important-text {
+    color: orange;
+    font-size: 25px;
 }
 
 /* CONTENT LINKS SECTION */
@@ -138,6 +147,7 @@ body {
     text-transform: capitalize;
     text-decoration: none;
 }
+
 .content-div:hover {
     border: 2px solid orange;
 }
@@ -245,7 +255,7 @@ body {
 a.button {
     display: inline-block;
     width: 10em;
-    padding: 0.3em 1.2em;
+    padding: 0.8em 1.2em;
     /* margin: 0 0.1em 0.1em 0; */
     border: 0.16em solid rgba(255, 255, 255, 0);
     border-radius: 2em;
@@ -261,10 +271,11 @@ a.button {
 }
 
 a.button:hover {
-    border-color: rgba(255, 255, 255, 1);
-    color: aqua;
+    border-color: purple;
+    color: purple;
 }
 
+/* FOOTER */
 
 footer {
     height: 80px;
@@ -280,11 +291,27 @@ footer {
     /* z-index: 3; */
 }
 
+.social-links>a {
+    color: #fff;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.social-links p {
+    margin-top: 10px;
+}
+
+/* IDEA, EQUIPMENT, SOFTWARE CONTENT */
+
 .info-background {
     background-color: #f2edd700;
-    width: 100%;
+    width: 95%;
     height: 605px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
 }
 
 .info {
@@ -293,14 +320,21 @@ footer {
     box-sizing: border-box;
     float: left;
     overflow: hidden;
-    margin: 0 auto;
     /* border: 2px solid #6a48c9; */
     position: relative;
     background-color: rgba(37, 197, 176, 0);
-    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* padding: 100px; */
+    /* display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start; */
+}
+
+.info h2 {
+    padding: 10px;
 }
 
 .info-image {
@@ -309,31 +343,38 @@ footer {
     box-sizing: border-box;
     float: left;
     overflow: hidden;
-    margin: 0 auto;
     /* border: 2px solid #3f99a8; */
     position: relative;
     background-color: rgba(255, 255, 255, 0);
-    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    /* display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 
 img {
-    height: 550px;
-    width: 550px;
+    height: 500px;
+    width: 500px;
     border-radius: 20% !important;
-    margin-top: 5px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    background-size: auto;
+    /* background-repeat: no-repeat;
+    background-position: center; */
 }
 
 .info-background-op {
     background-color: #f2edd700;
-    width: 100%;
+    width: 95%;
     height: 605px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
 }
 
 .info-op {
@@ -342,12 +383,10 @@ img {
     box-sizing: border-box;
     float: right;
     overflow: hidden;
-    margin: 0 auto;
     /* border: 2px solid #6a48c9; */
     position: relative;
     background-color: rgba(37, 197, 176, 0);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
 }
