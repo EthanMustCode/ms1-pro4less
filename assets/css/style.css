@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: none; */
+    border: none;
     box-sizing: border-box;
 }
 
@@ -434,5 +434,40 @@ img {
     border-radius: 5px;
 }
 
-#submit {
+/* MEDIA QUERIES */
+
+/* FOR LARGE AND MEDIUM SCREEN SIZES */
+
+@media screen and (max-width: 1200px) {
+    #content {
+        width: 65%;
+        height: 1200px
+        margin: 0 auto;
+    }
+
+    #center-content, #right-content {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #left-content {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+/* FOR MEDIUM SCREEN SIZES FROM 950PX WIDE AND DOWN */
+
+@media screen and (max-width: 950px) {
+
+    #nav-links {
+        clear: left;
+        float: left;
+        margin: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
